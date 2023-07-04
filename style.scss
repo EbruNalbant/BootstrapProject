@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+//slider
+.sliderimages {
+    height: 600px;
+}
+
+//About, team, gallery and contact
+section {
+    background-color: #f2f2f2;
+
+    hr {
+        border: none;
+        border-top: 3px solid #343a40;
+        max-width: 250px;
+        margin: 25px auto;
+    }
+
+    i {
+        font-size: 40px;
+        color: #343a40;
+        position: relative;
+        top: -55px;
+        border: 10px solid #f2f2f2;
+        background-color: #f2f2f2;
+    }
+
+    //icon for team and contact sections
+    .white {
+        background-color: white;
+        border: 10px solid white;
+    }
+
+    //team images
+    img:hover {
+        opacity: 0.8;
+    }
+}
